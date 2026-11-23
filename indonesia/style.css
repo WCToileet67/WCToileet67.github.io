@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("./firstScreen.css");
+@import url("./walkAways.css");
+@import url("./explore.css");
+@import url("./live.css");
+@import url("./foto.css");
+@import url("./gettingThere.css");
+@import url("./footer.css");
+
+
+
+:root {
+--font-DM-Sans:"DM Sans", sans-serif;
+--font-Roboto:"Roboto", sans-serif;
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+ul {
+list-style-type: none;
+}
+
+a {
+text-decoration: none;
+}
+img {
+width: 100%;
+height: auto;
+display: block;
+}
+
+.wrap {
+margin: auto;
+max-width: 1780px;
+padding: 0 30px;
+}
+
+.redBtn {
+background-color: #DD2242;
+color: #FFFFFFCC;
+font-weight: 700;
+font-family: var(--font-DM-Sans);
+border-radius: 999px;
+border: none;
+}
+
+.textCenter {
+text-align: center;
+}

@@ -1,0 +1,184 @@
+.firstScreen {
+    background-image: url("./img/bgFirstScreen.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 48px;
+    padding-bottom: 40px;
+}
+
+header {
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.logoFlower {
+    background-image: url("./img/logoFlower.png");
+    height: 42px;
+    width: 42px;
+    background-size: cover;
+}
+
+.logoText {
+    background-image: url("./img/logoText.png");
+    height: 32px;
+    width: 111px;
+    margin-top: auto;
+    background-size: cover;
+}
+
+.mobileMenu {
+    margin-left: auto;
+}
+
+.mobileIcons {
+    color: white;
+}
+
+.mobileMenuList {
+    position: absolute;
+    left: -1000px;
+}
+
+.mobileMenuList li a {
+    color: #FFFFFF;
+    font-family: var(--font-DM-Sans);
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.hide {
+    display: none;
+}
+
+.showMenu {
+    left: 0;
+}
+
+.desktopMenu {
+    display: none;
+}
+
+.desktopMenuList {
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+}
+
+.desktopMenuList li a {
+    color: #FFFFFF;
+    font-family: var(--font-DM-Sans);
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.headerSearch {
+    color: #FFFFFF;
+    margin-left: 32px;
+}
+
+h1 {
+    font-family: var(--font-Roboto);
+    font-weight: 900;
+    font-size: 58.15px;
+    line-height: 63px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 45px;
+}
+
+.mainBtn {
+    width: 315px;
+    height: 59px;
+    margin: 8px 0 54px;
+}
+
+.mainContainer {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+}
+
+.mainBox {
+padding: 32px 32px 0 32px;
+}
+
+.pb-32 {
+padding-bottom: 32px;
+}
+
+.mainBoxCount {
+    font-family: var(--font-Roboto);
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 100%;
+    color: #DD2242;
+}
+
+.mainBoxTitle {
+    font-family: var(--font-DM-Sans);
+    font-weight: 700;
+    font-size: 26.41px;
+    line-height: 41.08px;
+    color: #FFFFFF;
+}
+
+.mainBoxContent {
+    font-family: var(--font-DM-Sans);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #939393;
+}
+
+
+
+@media (min-width:820px) {
+    
+    header {
+        justify-content: space-between;
+    }
+
+    .logoFlower {
+        height: 49px;
+        width: 49px;
+    }
+
+    .logoText {
+        height: 39px;
+        width: 135px;
+        margin-top: 10px;
+    }
+
+    .mobileMenu {
+        display: none;
+    }
+
+    .desktopMenu {
+        display: block;
+    }
+
+    h1 {
+        font-size: 120px;
+        line-height: 130px;
+        margin-top: 195px;
+    }
+
+    .mainBtn {
+        width: 271px;
+        height: 82px;
+        margin: 21px 0 0;
+    }
+
+    .mainContainer {
+        flex-direction: row;
+        margin-top: 125px;
+    }
+}

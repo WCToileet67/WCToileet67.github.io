@@ -1,0 +1,79 @@
+.walkaways {
+background-image: linear-gradient(rgba(1, 10, 32, 80%), rgba(1, 10, 32, 100%)), url("./img/bgMounntia.png");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 40px 0;
+}
+
+.walkAwaysContainer {
+display: flex;
+flex-direction: column;
+gap: 34px;
+}
+
+.walksAwaysTitle {
+font-family: var(--font-DM-Sans);
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+color: white;
+}
+
+.walksAwaysText {
+font-family: var(--font-DM-Sans);
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #E0E0E0;
+margin: 15px 0 25px;
+}
+
+.walksAwaysBtn {
+height: 72px;
+width: 314px;
+}
+
+.beach {
+padding: 16px 0 48px; 
+background-image: linear-gradient(rgba(1, 10, 32, 100%), rgba(1, 10, 32, 80%)), url("./img/bgBeach.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+@media (min-width:820px) {
+.walkAwaysContainer {
+flex-direction: row;
+max-width: 1260px;
+margin: auto;
+justify-content: space-between;
+}
+.walkAwaysImg {
+max-width: 630px;
+width: 40vw;
+object-fit: cover;
+border-radius: 10px;
+}
+.beachImg {
+max-width: 630px;
+width: 40vw;
+object-fit: cover;
+border-radius: 10px;
+order: 1;
+}
+.walkAwaysContent {
+width: 500px;
+padding-top: 68px;
+}
+.walksAwaysTitle {
+font-size: 42px;
+line-height: 50px;
+}
+.walksAwaysText {
+font-size: 18px;
+line-height: 28px;
+}
+.walksAwaysBtn {
+height: 59px;
+width: 179px;
+}
+}

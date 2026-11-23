@@ -1,0 +1,110 @@
+.live {
+background-image: url("./img/bgLive.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 141px 0 210px;
+}
+
+.indonesiaImg {
+background-image: url("./img/liveMainImg.png");
+background-position: center;
+background-size: cover;
+max-width: 314px;
+height: 192px;
+margin: 67px auto 40px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.bgButton {
+background-image: url("./img/bgButton.png");
+background-size: cover;
+height: 67px;
+width: 67px;
+border-radius: 50%;
+border: none;
+}
+
+.liveContainer {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 40px;
+max-width: 1380px;
+margin: auto;
+}
+
+.liveBox {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 40px;
+}
+
+.liveBoxImg {
+background-image: url("./img/bgLiveBoxImg.png");
+width: 314px;
+height: 176px;
+}
+
+.liveBoxContent {
+width: 314px;
+}
+
+.liveContentTitle {
+font-family: "DM Sans";
+font-weight: 700;
+font-size: 22px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 19px;
+}
+
+.liveContentText {
+font-family: "DM Sans";
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.liveBox1 {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 40px;
+}
+
+.liveBoxImg1 {
+background-image: url("./img/liveBoxImg1.png");
+width: 314px;
+height: 176px;
+background-size: cover;
+border-radius: 5px;
+}
+
+@media (min-width:420px) {   
+.indonesiaImg {
+margin: 67px auto 125px;
+max-width: 1056px;
+height: 594px;
+}
+.bgButton {
+height: 96px;
+width: 96px;
+}
+.liveContentTitle {
+font-size: 18px;
+text-align: left;
+}
+.liveContentText {
+font-size: 18px;
+text-align: left;
+}
+}
+
+/*додати декілька медіа запитів щоб картинка збільшувалася пропорційно до розмірів екрану*/

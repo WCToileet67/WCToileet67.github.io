@@ -1,0 +1,117 @@
+.foto {
+padding: 32px 0;
+}
+
+.fotoTitle {
+font-family: "DM Sans";
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+text-align: center;
+vertical-align: middle;
+color: #010A20;
+margin-bottom: 20px;
+}
+
+.fotoText {
+font-family: "DM Sans";
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #6F7787;
+max-width: 511px;
+margin: auto;
+margin-bottom: 32px;
+}
+
+.fotoContainer {
+width: 314px;
+height: 480px;
+margin: auto;
+display: grid;
+grid-template-columns: auto auto;
+grid-template-rows: 86px 119px 86px 153px;
+gap: 12px;
+}
+
+.fotoBox {
+background-size: cover;
+border-radius: 10px;
+}
+
+.fotoGirls {
+background-image: url("./img/bgGirls.png");
+grid-column: 1/2;
+grid-row: 1/3;
+}
+.fotoOcean {
+background-image: url("./img/bgOcean.png");
+grid-column: 1/2;
+grid-row: 3/4;
+}
+
+.fotoMountians {
+background-image: url("./img/bgMountians.png");
+grid-column: 2/3;
+grid-row: 1/2;
+}
+
+.fotoMan {
+background-image: url("./img/bgMan.png");
+grid-column: 1/2;
+grid-row: 4/5;
+}
+
+.fotoRiver {
+background-image: url("./img/bgRiver.png");
+grid-column: 2/3;
+grid-row: 2/4;
+}
+
+.fotoFog {
+background-image: url("./img/bgFog.png");
+grid-column: 2/3;
+grid-row: 4/5;
+}
+
+@media (min-width:1232px) {
+.foto {
+padding: 41px 0;
+}
+.fotoTitle {
+font-size: 60px;
+}
+.fotoText {
+font-size: 18px;
+line-height: 28px;
+margin-bottom: 71px;
+}
+.fotoContainer {
+width: 1170px;
+height: 860px;
+grid-template-columns: auto auto auto;
+grid-template-rows: 210px 160px 160px 240px;
+gap: 30px;
+}
+.fotoGirls {
+grid-row: 1/4;
+}
+.fotoOcean {
+grid-row: 4/5;
+}
+.fotoMan {
+grid-column: 3/4;
+grid-row: 1/3;
+}
+.fotoRiver {
+grid-column: 2/3;
+grid-row: 2/5;
+}
+.fotoFog {
+grid-column: 3/4;
+grid-row: 3/5;
+}
+}
+
+/*розібратися чому секція по висоті не розтягується на десктопі*/

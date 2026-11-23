@@ -1,0 +1,56 @@
+footer {
+background-color: #010A20;
+}
+
+.logoFlower {
+background-image: url("./img/logoFlower.png");
+width: 51px;
+height: 51px;
+}
+
+.footerText {
+color: #FFFFFF;
+font-family: "DM Sans";
+font-weight: 700;
+font-size: 22.94px;
+line-height: 35.69px;
+text-align: center;
+margin: 36px;
+}
+
+.footerText1 {
+margin-top: 36px;
+margin-bottom: 36px;
+}
+
+.footerText2 {
+margin-top: 36px;
+margin-bottom: 36px;
+}
+
+
+.copyright {
+font-family: "DM Sans";
+font-weight: 700;
+font-size: 22.94px;
+line-height: 35.69px;
+color: #FFFFFF;
+text-align: center;
+margin-bottom: 83px;
+}
+
+@media (min-width:900px) {
+footer {
+height: 136px;
+}
+.footerText {
+font-size: 18px;
+}
+.footerTextContainer {
+display: flex;
+gap: 36px;
+}
+.copyright {
+text-align: right;
+}
+}

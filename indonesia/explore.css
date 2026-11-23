@@ -1,0 +1,118 @@
+.secrets {
+background-image: url("./img/bgExplore.jpg");
+background-position: center;
+background-repeat: no-repeat;
+padding: 25px 0 0;
+display: flex;
+flex-direction: column;
+height: 2063px;
+}
+
+.exploreTitle {
+font-family: var(--font-DM-Sans);
+font-weight: 700;
+font-size: 40px;
+line-height: 150%;
+text-align: center;
+color: #010A20;
+}
+
+.exploreContainer {
+display: flex;
+flex-wrap: wrap;
+gap: 31px;
+justify-content: center;
+margin-top: 44px;
+}
+
+.secretBox {
+width: 405px;
+height: 257px;
+border-radius: 10px;
+background-size: cover;
+background-position: center;
+}
+
+.secretSea {
+background-image: url("./img/bgSecretSea.png");
+}
+
+.secretForest {
+background-image: url("./img/bgForest.png");
+}
+
+.secretRocks {
+background-image: url("./img/bgRocks.png");
+}
+
+.secretIcon {
+background-image: url("./img/secretIcon.png");
+width: 196px;
+height: 19px;
+margin: auto;
+margin-top: 28px;
+}
+
+.secretFooter {
+background-image: linear-gradient(rgba(2, 12, 33, 100%), rgba(2, 12, 33, 85%));
+margin-top: auto;
+padding-top: 60px;
+}
+
+.secretFooterTitle {
+font-family: var(--font-DM-Sans);
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.secretFooterContent {
+max-width: 484px;
+margin: auto;
+font-family: var(--font-DM-Sans);
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #E0E0E0;
+}
+
+.secretFooterContainer {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+padding-top: 39px;
+}
+
+.secretFooterBox {
+width: 340px;
+}
+.secretFooterTitleStyles {
+font-family: var(--font-DM-Sans);
+font-weight: 700;
+font-size: 42px;
+line-height: 49.16px;
+text-align: center;
+color: #DD2242;
+}
+
+@media (min-width:1070px) {   
+.exploreTitle {
+font-size: 50px;
+}
+.secretFooter {
+margin-top: auto;
+padding-top: 100px;
+height: 570px;
+}
+.secretFooterTitle {
+font-size: 60px;
+line-height: 150%;
+}
+.secretFooterContent {
+font-size: 18px;
+line-height: 28px;
+}
+}
